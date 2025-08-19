@@ -39,12 +39,24 @@
 # friends.sort()
 # #The sort method sorts the list in ascending order
 
+# This program creates a list of friends and then sends a personalized
+# invitation message to each one by looping through the list.
+# invited_friends=["Maiah", "Ruth", "Him"]
 
-invited_friends=["Maiah", "Ruth", "Him"]
-
-for name in invited_friends:
-    message= f"Hi {name}, you are invited to a party"
-    print(message)
+# for name in invited_friends:
+#     message= f"Hi {name}, you are invited to a party"
+#     print(message)
 
 
+
+# favourite_pizzas = ["Pepperoni", "Sausage and Cheese", "Meat Lovers"]
+
+# for favourite_pizza in favourite_pizzas:
+#     message = f"My favourite pizza is {favourite_pizza}"
+#     print(message + "\n")
+# print("You can say I really love pizza")
+
+
+for value in range(0,100):
+    print("The number is " + str(value))
 
