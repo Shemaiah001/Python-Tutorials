@@ -56,7 +56,35 @@
 #     print(message + "\n")
 # print("You can say I really love pizza")
 
+#Adding the list function would change the range to a list
+# squares = []
 
-for value in range(0,100):
-    print("The number is " + str(value))
+# for value in range(0,10):
+#     square = value**2
+#     squares.append(square)
 
+# print(squares)
+
+# odd_numbers = []
+# for value in range(1,100,2):
+#     odd_numbers.append(value)
+# print(odd_numbers)
+
+#Difference between a list[] and a tuple() is that tuples cannot be edited
+
+# Define the buffet menu as a tuple
+buffet_menu = ("Rice", "Beans", "Salad", "Chicken", "Fish")
+
+print("Original Buffet Menu:")
+for food in buffet_menu:
+    print(food)
+
+# Try to modify one of the items (this will raise an error)
+# buffet_menu[0] = "Pizza"   # Uncomment to see the error (TypeError)
+
+# Rewrite the tuple with new items
+buffet_menu = ("Pizza", "Pasta", "Salad", "Chicken", "Beef")
+
+print("\nRevised Buffet Menu:")
+for food in buffet_menu:
+    print(food)
